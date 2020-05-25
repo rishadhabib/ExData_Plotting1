@@ -114,3 +114,4 @@ Check: This is a line from RStudio
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+line from local computer
