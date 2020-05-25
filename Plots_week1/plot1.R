@@ -1,9 +1,7 @@
 # Loading libraries
 library(readr)
-library(tidyverse)
 
 # Loading Dataset
-setwd("C:/Users/risha/Dropbox/PROJECTS/Tracking/Coursera Getting and Cleaning Data")
 epc <- read_delim ("exdata_data_household_power_consumption/household_power_consumption.txt",
                    delim = ";", col_names = TRUE, na = c("?", "", "NA"))
 
@@ -22,7 +20,7 @@ names(epc_filter)
 
 
 # PLOT 1
-png("plot1.png", width = 480, height = 480)
+png("Plots_week1/plot1.png", width = 480, height = 480)
 hist(epc_filter$Global_active_power, 
      col = "red", 
      main = "Global Active Power", 
